@@ -1,4 +1,5 @@
 node 'raspberrypi' {
-  include bashrc
   include users
+  include bashrc
+  include vimrc
 }

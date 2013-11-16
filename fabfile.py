@@ -5,7 +5,7 @@ def raspberry_pi():
   env.hosts = ['192.168.200.100']
 
 def install_ruby():
-  run('curl -L https://get.rvm.io | bash -s stable --ruby')
+  run('sudo curl -L https://get.rvm.io | bash -s stable --ruby')
 
 def apply_puppet():
   run('apt-get install rubygems')
