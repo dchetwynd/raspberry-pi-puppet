@@ -1,0 +1,17 @@
+[user]
+	email = d_chetwynd@fastmail.co.uk
+	name = Daley Chetwynd
+[core]
+        autocrlf = input
+[color]
+        ui = true
+[alias]
+        l = "!source ~/.githelpers && pretty_git_log"
+	s = "status"
+	d = "diff"
+	ci = "commit"
+	pr = "pull --rebase"
+	pom = "push -u origin master"
+	rhh = "reset --hard HEAD"
+[push]
+	default = simple
