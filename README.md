@@ -14,3 +14,5 @@ vncserver running on boot for remote desktop into the Raspberry Pi
 
 
 This Puppet manifest was created at the 16/11/2013 meeting of the Manchester Raspberry Jam user group at Madlab
+
+http://mcrraspjam.org.uk
