@@ -1,0 +1,3 @@
+node 'raspberrypi' {
+  include bashrc
+}
