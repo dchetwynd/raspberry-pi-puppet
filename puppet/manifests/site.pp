@@ -3,4 +3,5 @@ node 'raspberrypi' {
   include bashrc
   include vimrc
   include git
+  include ssh
 }
