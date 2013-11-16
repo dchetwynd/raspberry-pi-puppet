@@ -1,7 +1,8 @@
 class bashrc {
   file {'bashrc':
-    path   => '/home/pi/.bashrc',
-    ensure => file,
-    source => 'bashrc/.bashrc'
+    path    => '/home/myob/.bashrc',
+    ensure  => file,
+    source  => 'bashrc/.bashrc',
+    require => User['myob']
   }
 }
